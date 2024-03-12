@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.apresentacao {
+  padding: 2rem 5rem 2rem 5rem;
+  align-items: center;
+  justify-content:center;
+}
+
+.apresentacao__professores {
+  gap: 3rem;
+  display: flex;
+  padding: 5rem 0 0 0;
+}
+
+.apresentacao__titulo {
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem 0 5rem;
+  background-color: #95D600;
+  font-family: 'Krona One', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.apresentacao__professores__navegacao {
+  justify-content: center;
+  border: 8px #2B3A57;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.7rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #95D600;
+  color:#2B3A57;
+  font-family: 'Krona One', sans-serif;
+  font-weight: 600;
+}

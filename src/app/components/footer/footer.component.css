@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat' sans-serif;
+}
+
+.rodape {
+    padding: 0.025rem 0 0.025rem 0;
+    color:#2B3A57;
+    background-color: #95D600;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

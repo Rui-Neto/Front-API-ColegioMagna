@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.apresentacao {
+  padding: 2% 5% 2% 5%;
+  align-items: center;
+  justify-content:center;
+  background-color: #2B3A57;
+}
+
+.apresentacao__titulo {
+  padding: 0.5%;
+  background-color: #95D600;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.apresentacao__titulo__texto {
+  font-family: 'Krona One', sans-serif;
+  color: #020013;
+}
+
+.apresentacao__conteudo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 2rem;
+  font-family: 'Montserrat' sans-serif;
+  color: white;
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 1.2rem;
+  font-family: 'Montserrat' sans-serif;
+  color: white;
+}
+
+.apresentacao__conteudo__imagem {
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem 0 1rem;
+  /* background-size: contain; */
+  display: flex;
+  /* background-repeat: no-repeat; */
+}
+
+.apresentacao__conteudo__imagem__escola {
+  /* background-image: url(../../../assets/images/colegio.JPG); */
+  max-width: 100%;
+  max-height: auto;
+}
